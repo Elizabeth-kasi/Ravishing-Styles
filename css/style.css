@@ -1,0 +1,97 @@
+/* Ravishing Styles - New Horizon student project */
+:root { --ink:#29221f; --cream:#faf7f2; --accent:#8c514a; --line:#e6ded7; }
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:Arial, Helvetica, sans-serif; background:#fff; color:var(--ink); line-height:1.6; }
+a { color:inherit; text-decoration:none; }
+img { max-width:100%; display:block; }
+.container { width: min(1100px, 90%); margin:auto; }
+.topbar { background:var(--ink); color:#fff; text-align:center; padding:7px 12px; font-size:12px; letter-spacing:.4px; }
+.site-header { background:white; border-bottom:1px solid var(--line); }
+.header-inner { display:flex; align-items:center; justify-content:space-between; min-height:82px; gap:20px; }
+.logo { font-family:Georgia, serif; font-size:26px; font-weight:bold; line-height:1.05; letter-spacing:-.6px; }
+.logo span { display:block; font-family:Arial,sans-serif; font-size:9px; letter-spacing:3px; font-weight:normal; margin-top:5px; }
+.nav { display:flex; gap:28px; align-items:center; }
+.nav a { font-size:14px; }
+.nav a:hover, .nav a.active { color:var(--accent); text-decoration:underline; text-underline-offset:7px; }
+.menu-button { display:none; border:1px solid var(--line); padding:8px 12px; background:#fff; font-size:14px; cursor:pointer; }
+.hero { background:var(--cream); }
+.hero-grid { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:7%; min-height:510px; }
+.hero-copy { padding:55px 0; }
+.eyebrow { color:var(--accent); text-transform:uppercase; font-size:12px; letter-spacing:2px; font-weight:bold; }
+h1,h2,h3 { line-height:1.2; }
+h1,h2 { font-family:Georgia, 'Times New Roman', serif; font-weight:normal; }
+h1 { font-size:clamp(39px,5vw,68px); letter-spacing:-2px; margin:14px 0 20px; }
+h2 { font-size:clamp(30px,3.5vw,43px); margin:8px 0 14px; }
+h3 { font-size:18px; }
+p { margin-top:0; }
+.hero-copy p { color:#655a54; max-width:450px; }
+.button { display:inline-block; background:var(--ink); color:white; border:1px solid var(--ink); padding:12px 24px; font-size:14px; cursor:pointer; font-family:inherit; }
+.button:hover { background:var(--accent); border-color:var(--accent); }
+.button.outline { background:transparent; color:var(--ink); }
+.button.outline:hover { background:var(--ink); color:white; }
+.hero-image { height:510px; width:100%; object-fit:cover; object-position:center 35%; }
+.section { padding:76px 0; }
+.section-heading { text-align:center; max-width:650px; margin:0 auto 35px; }
+.section-heading p { color:#6c615c; }
+.product-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:25px; }
+.product-card img { aspect-ratio:3/3.6; width:100%; object-fit:cover; background:#eee6dc; }
+.product-card h3 { margin:13px 0 3px; font-size:17px; font-weight:normal; }
+.product-card p { color:#73655d; font-size:13px; margin:0 0 5px; }
+.product-card strong { color:var(--accent); font-size:15px; }
+.intro-panel { background:var(--cream); padding:60px 0; }
+.intro-grid { display:grid; grid-template-columns:1fr 1fr; gap:8%; align-items:center; }
+.intro-grid img { width:100%; height:360px; object-fit:cover; }
+.intro-grid p { color:#665b55; }
+.page-banner { text-align:center; background:var(--cream); padding:58px 0; }
+.page-banner p { max-width:600px; margin:0 auto; color:#665b55; }
+.page-banner h1 { font-size:48px; }
+.story-grid { display:grid; grid-template-columns:1fr 1fr; gap:8%; align-items:center; }
+.story-grid img { width:100%; max-height:540px; object-fit:cover; }
+.story-grid p { color:#665b55; }
+.values-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:30px; }
+.value { padding-top:18px; border-top:2px solid var(--accent); }
+.value p { color:#665b55; }
+.filters { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin-bottom:30px; }
+.filter-button { border:1px solid var(--line); background:#fff; color:var(--ink); padding:8px 16px; font:inherit; font-size:13px; cursor:pointer; }
+.filter-button.active, .filter-button:hover { background:var(--ink); color:#fff; }
+.contact-grid { display:grid; grid-template-columns:1fr 1.35fr; gap:9%; }
+.contact-details p { color:#665b55; }
+.contact-details a { color:var(--accent); }
+.form-group { margin-bottom:18px; }
+label { display:block; margin-bottom:6px; font-weight:bold; font-size:13px; }
+input,textarea { width:100%; border:1px solid #cfc5be; border-radius:0; padding:11px 12px; font:inherit; font-size:14px; background:white; color:var(--ink); }
+input:focus,textarea:focus { outline:2px solid #a8746c; outline-offset:1px; }
+textarea { min-height:140px; resize:vertical; }
+.form-feedback { font-size:14px; margin-top:14px; min-height:22px; }
+.form-feedback.error { color:#a22d2d; }
+.form-feedback.success { color:#32704b; }
+.footer { background:var(--ink); color:#fff; margin-top:0; padding:43px 0 20px; }
+.footer-content { display:flex; justify-content:space-between; gap:30px; align-items:start; }
+.footer .logo { font-size:22px; }
+.footer p, .footer a { color:#e0d7d0; font-size:13px; }
+.footer-nav { display:flex; gap:18px; flex-wrap:wrap; }
+.copyright { border-top:1px solid #5c514c; padding-top:20px; margin-top:28px; font-size:12px; color:#ddd1ca; }
+.center { text-align:center; }
+.cta-section { text-align:center; background:var(--cream); padding:55px 15px; }
+[hidden] { display:none !important; }
+@media (max-width:760px) {
+ .header-inner { min-height:75px; flex-wrap:wrap; }
+ .logo { font-size:23px; }
+ .menu-button { display:block; }
+ .nav { display:none; flex-basis:100%; width:100%; flex-direction:column; align-items:stretch; gap:0; padding-bottom:15px; }
+ .nav.open { display:flex; }
+ .nav a { padding:12px 0; border-top:1px solid var(--line); }
+ .hero-grid,.intro-grid,.story-grid,.contact-grid { grid-template-columns:1fr; gap:25px; }
+ .hero-grid { min-height:auto; }
+ .hero-copy { padding:48px 0 12px; }
+ .hero-image { height:380px; }
+ .product-grid { grid-template-columns:repeat(2,1fr); gap:17px; }
+ .values-grid { grid-template-columns:1fr; gap:15px; }
+ .section { padding:52px 0; }
+ .intro-grid img { height:320px; }
+ .page-banner { padding:42px 0; }
+ .page-banner h1 { font-size:40px; }
+ .footer-content { flex-direction:column; gap:15px; }
+}
+@media (max-width:450px) { .product-grid { grid-template-columns:1fr; } .hero-image { height:310px; } h1 { letter-spacing:-1px; } }
