@@ -19,8 +19,18 @@ Open `index.html` in a browser, or run a local static server. No installation is
 ## Contact form
 This is a demonstration form. JavaScript validates the entered fields; it does not send messages to a server.
 
-## Image credits
-Fashion images are served from Unsplash. Internet access is needed for them to display.
+## Images
+All seven supplied fashion images are saved in the `images/` folder and linked locally from the HTML pages. They do not require Unsplash to load.
+
+- `shopping-hero.jpg` — home page hero
+- `blue-wrap-dress.jpg` — blue dress product
+- `classic-shirts.jpg` — shirts product
+- `denim-jacket.jpg` — jacket product
+- `clothing-rack.jpg` — home story, about page and everyday tops
+- `plaid-coat.jpg` — coat product
+- `floral-dress.jpg` — floral dress product
+
+To replace a photo later, change the image file in `images/` or update the matching `<img src="images/filename.jpg">` in the HTML.
 
 ## Deployment
 Publish the repository to Netlify. For this plain HTML project, the publish directory is the repository root (`.`) and no build command is needed.

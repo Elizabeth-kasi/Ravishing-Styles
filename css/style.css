@@ -36,6 +36,7 @@ p { margin-top:0; }
 .section-heading p { color:#6c615c; }
 .product-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:25px; }
 .product-card img { aspect-ratio:3/3.6; width:100%; object-fit:cover; background:#eee6dc; }
+.product-card img.floral-photo { object-position:32% center; }
 .product-card h3 { margin:13px 0 3px; font-size:17px; font-weight:normal; }
 .product-card p { color:#73655d; font-size:13px; margin:0 0 5px; }
 .product-card strong { color:var(--accent); font-size:15px; }
